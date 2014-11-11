@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  STShineLabel.h
 //  ShineText
 //
 //  Created by QinMingChuan on 14/11/11.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface STShineLabel : UILabel
 
+@property (nonatomic) CGPoint starPoint; //0~1
+@property (nonatomic) CGPoint endPoint;  //0~1
 
 @end
-

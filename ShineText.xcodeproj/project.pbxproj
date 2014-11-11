@@ -9,22 +9,10 @@
 /* Begin PBXBuildFile section */
 		8F1018E51A1246CF005023E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1018E41A1246CF005023E9 /* main.m */; };
 		8F1018E81A1246CF005023E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1018E71A1246CF005023E9 /* AppDelegate.m */; };
-		8F1018EB1A1246CF005023E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1018EA1A1246CF005023E9 /* ViewController.m */; };
-		8F1018EE1A1246CF005023E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F1018EC1A1246CF005023E9 /* Main.storyboard */; };
 		8F1018F01A1246CF005023E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F1018EF1A1246CF005023E9 /* Images.xcassets */; };
 		8F1018F31A1246CF005023E9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F1018F11A1246CF005023E9 /* LaunchScreen.xib */; };
-		8F1018FF1A1246CF005023E9 /* ShineTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1018FE1A1246CF005023E9 /* ShineTextTests.m */; };
+		8F10190D1A124B27005023E9 /* STShineLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10190C1A124B27005023E9 /* STShineLabel.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		8F1018F91A1246CF005023E9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8F1018D71A1246CF005023E9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8F1018DE1A1246CF005023E9;
-			remoteInfo = ShineText;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8F1018DF1A1246CF005023E9 /* ShineText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShineText.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,25 +20,14 @@
 		8F1018E41A1246CF005023E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8F1018E61A1246CF005023E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8F1018E71A1246CF005023E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8F1018E91A1246CF005023E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8F1018EA1A1246CF005023E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8F1018ED1A1246CF005023E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F1018EF1A1246CF005023E9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8F1018F21A1246CF005023E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		8F1018F81A1246CF005023E9 /* ShineTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShineTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F1018FD1A1246CF005023E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8F1018FE1A1246CF005023E9 /* ShineTextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShineTextTests.m; sourceTree = "<group>"; };
+		8F10190B1A124B27005023E9 /* STShineLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STShineLabel.h; sourceTree = "<group>"; };
+		8F10190C1A124B27005023E9 /* STShineLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STShineLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8F1018DC1A1246CF005023E9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8F1018F51A1246CF005023E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -64,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				8F1018E11A1246CF005023E9 /* ShineText */,
-				8F1018FB1A1246CF005023E9 /* ShineTextTests */,
 				8F1018E01A1246CF005023E9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				8F1018DF1A1246CF005023E9 /* ShineText.app */,
-				8F1018F81A1246CF005023E9 /* ShineTextTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,9 +58,8 @@
 			children = (
 				8F1018E61A1246CF005023E9 /* AppDelegate.h */,
 				8F1018E71A1246CF005023E9 /* AppDelegate.m */,
-				8F1018E91A1246CF005023E9 /* ViewController.h */,
-				8F1018EA1A1246CF005023E9 /* ViewController.m */,
-				8F1018EC1A1246CF005023E9 /* Main.storyboard */,
+				8F10190B1A124B27005023E9 /* STShineLabel.h */,
+				8F10190C1A124B27005023E9 /* STShineLabel.m */,
 				8F1018EF1A1246CF005023E9 /* Images.xcassets */,
 				8F1018F11A1246CF005023E9 /* LaunchScreen.xib */,
 				8F1018E21A1246CF005023E9 /* Supporting Files */,
@@ -98,23 +72,6 @@
 			children = (
 				8F1018E31A1246CF005023E9 /* Info.plist */,
 				8F1018E41A1246CF005023E9 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		8F1018FB1A1246CF005023E9 /* ShineTextTests */ = {
-			isa = PBXGroup;
-			children = (
-				8F1018FE1A1246CF005023E9 /* ShineTextTests.m */,
-				8F1018FC1A1246CF005023E9 /* Supporting Files */,
-			);
-			path = ShineTextTests;
-			sourceTree = "<group>";
-		};
-		8F1018FC1A1246CF005023E9 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8F1018FD1A1246CF005023E9 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -139,24 +96,6 @@
 			productReference = 8F1018DF1A1246CF005023E9 /* ShineText.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8F1018F71A1246CF005023E9 /* ShineTextTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8F1019051A1246CF005023E9 /* Build configuration list for PBXNativeTarget "ShineTextTests" */;
-			buildPhases = (
-				8F1018F41A1246CF005023E9 /* Sources */,
-				8F1018F51A1246CF005023E9 /* Frameworks */,
-				8F1018F61A1246CF005023E9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8F1018FA1A1246CF005023E9 /* PBXTargetDependency */,
-			);
-			name = ShineTextTests;
-			productName = ShineTextTests;
-			productReference = 8F1018F81A1246CF005023E9 /* ShineTextTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +107,6 @@
 				TargetAttributes = {
 					8F1018DE1A1246CF005023E9 = {
 						CreatedOnToolsVersion = 6.1;
-					};
-					8F1018F71A1246CF005023E9 = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = 8F1018DE1A1246CF005023E9;
 					};
 				};
 			};
@@ -189,7 +124,6 @@
 			projectRoot = "";
 			targets = (
 				8F1018DE1A1246CF005023E9 /* ShineText */,
-				8F1018F71A1246CF005023E9 /* ShineTextTests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,16 +133,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F1018EE1A1246CF005023E9 /* Main.storyboard in Resources */,
 				8F1018F31A1246CF005023E9 /* LaunchScreen.xib in Resources */,
 				8F1018F01A1246CF005023E9 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8F1018F61A1246CF005023E9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,39 +145,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F1018EB1A1246CF005023E9 /* ViewController.m in Sources */,
+				8F10190D1A124B27005023E9 /* STShineLabel.m in Sources */,
 				8F1018E81A1246CF005023E9 /* AppDelegate.m in Sources */,
 				8F1018E51A1246CF005023E9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F1018F41A1246CF005023E9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8F1018FF1A1246CF005023E9 /* ShineTextTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		8F1018FA1A1246CF005023E9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8F1018DE1A1246CF005023E9 /* ShineText */;
-			targetProxy = 8F1018F91A1246CF005023E9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		8F1018EC1A1246CF005023E9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8F1018ED1A1246CF005023E9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8F1018F11A1246CF005023E9 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +199,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -332,7 +234,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -359,40 +261,6 @@
 			};
 			name = Release;
 		};
-		8F1019061A1246CF005023E9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ShineTextTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShineText.app/ShineText";
-			};
-			name = Debug;
-		};
-		8F1019071A1246CF005023E9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ShineTextTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShineText.app/ShineText";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -412,14 +280,7 @@
 				8F1019041A1246CF005023E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		8F1019051A1246CF005023E9 /* Build configuration list for PBXNativeTarget "ShineTextTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8F1019061A1246CF005023E9 /* Debug */,
-				8F1019071A1246CF005023E9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
