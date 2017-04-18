@@ -37,6 +37,10 @@
     
     _timer = [NSTimer scheduledTimerWithTimeInterval:kTime target:self selector:@selector(changeGridentColos) userInfo:nil repeats:YES];
     
+    UIViewController *vc = [[UIViewController alloc] init];
+    [vc.view addSubview:_contLabel];
+    
+    self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
     
     return YES;
